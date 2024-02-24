@@ -1,0 +1,73 @@
+header {
+    background-color: rgb(151, 151, 190);
+   height: auto;
+}
+
+.main {
+    background-color: rgb(195, 217, 221);
+    height: auto;
+}
+
+footer {
+    background-color: blue;
+    height: 300px;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.topNavBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #333;
+  color: #85b1c2;
+  ;
+    font-size: 1.2rem;
+}
+
+.liTopNavBar {
+  list-style: none;
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.liTopNavBar a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.5rem;
+}
+
+body {
+
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.mainContent{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 20px;
+}
+
+.intoText {
+    padding: 5%;
+    border: #0f2327 5px dashed;
+}
+
+.layingImg{
+    padding 10%;
+    border: #7bcbda 5px solid;
+    border-radius: 45%;
+
+}
